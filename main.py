@@ -18,3 +18,14 @@ print(type(str(num_1)))
 print(type(str(num_2)))
 print(type(str(num_3)))
 
+name = 'Tymofii'
+last_name = 'Gorlachov'
+year = '2007'
+country = 'Ukraine'
+pet = 'cat'
+book = 'How to open a restaurant'
+play = 'Minecraft'
+hobby = 'Programming'
+eat = 'sushi'
+
+print(f"\tHello i'm a {name, last_name},I was born in {year} I'm from {country}.\nMy favorite pet is {pet} I also like to read sometimes, \none of my favorite books is {book} \nWhat about games i like to play {play}, hobby is {hobby} \nEat hm i like almost all but {eat} is perfect")
